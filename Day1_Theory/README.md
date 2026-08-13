@@ -29,25 +29,31 @@ The session provided an introduction to the technology-specific information prov
 
 The session introduced the SkyWater SKY130 PDK and its role in enabling open-source semiconductor design and verification.
 
-![SKY130 PDK](01_sky130_pdk.png)
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/6eb732cb-7ade-4397-9381-2f54d029cd95" />
 
 ### 2. Open-Source EDA Tools
 
 The session covered the open-source EDA tools used across different stages of circuit design, layout and verification.
 
-![Open-Source EDA Tools](02_open_source_eda.png)
+<img width="1024" height="542" alt="image" src="https://github.com/user-attachments/assets/baecfdaf-d07c-45da-b443-d3114f0656af" />
 
 ### 3. SKY130 Technology Layers
 
 The session introduced the technology layers used in SKY130 layouts and their significance in physical implementation.
 
-![SKY130 Technology Layers](03_sky130_layers.png)
+<img width="518" height="294" alt="image" src="https://github.com/user-attachments/assets/bc2c40fc-c56e-4916-8d01-529b8c8f11e6" />
 
 ### 4. Libraries and Standard Cells
 
 The session covered digital standard cells, I/O cells and primitive devices and their role in the design ecosystem.
 
-![Libraries and Standard Cells](04_libraries.png)
+<img width="684" height="549" alt="image" src="https://github.com/user-attachments/assets/a7aedba3-57c6-4f88-b278-d79cfde7cde3" />
+
+### 5. Design flow
+
+This session shows the LVS step in the VLSI physical design verification flow, where the layout is compared with the schematic/netlist to ensure correct device connectivity and functionality.
+
+<img width="516" height="201" alt="image" src="https://github.com/user-attachments/assets/de87a10e-6e78-4bcd-b042-6a9aaf30ff2c" />
 
 ## Outcome
 
