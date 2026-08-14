@@ -48,7 +48,7 @@ The circuit is designed in Xschem and a netlist is generated. Here we performed 
 
 **Evidence:** Xschem circuit setup and netlist generation.
 
-### 2. Magic Layout Environment
+### 3. Magic Layout Environment
 
 The Magic layout environment was opened and explored for working with the physical representation of the design.
 
@@ -56,7 +56,7 @@ The Magic layout environment was opened and explored for working with the physic
 
 **Evidence:** Magic setup and layout environment.
 
-### 3. Netgen Layout Examination
+### 4. Netgen Layout Examination
 
 The physical layout was viewed and examined using the Ngspice environment, providing practical exposure to technology layers and layout representation.
 
@@ -64,7 +64,7 @@ The physical layout was viewed and examined using the Ngspice environment, provi
 
 **Evidence:** SKY130 layout verification.
 
-### 4. Inverter Simulation
+### 5. Inverter Simulation
 
 The inverter circuit was simulated and the input and output waveforms were observed to understand the circuit response. Both xschem and magic .spice layouts gave identical outputs.
 
