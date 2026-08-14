@@ -57,13 +57,13 @@ The session covered the basic concept of extracting parasitic effects from the p
 
  <img width="521" height="199" alt="image" src="https://github.com/user-attachments/assets/de4f6d22-69c3-4a34-ae99-29bfe2980446" />
 
-### 4. GDS Annotation
+### 3. GDS Annotation
 
 The session covered the concept of reading and annotating gds from the physical layout of pdk library.
 
 <img width="742" height="602" alt="image" src="https://github.com/user-attachments/assets/74d5ca90-cb45-4ba2-a37d-c05f1730156d" />
 
-### 3. XOR Verification
+### 4. XOR Verification
 
 The session introduced layout comparison using XOR-based verification to identify physical differences.
 
