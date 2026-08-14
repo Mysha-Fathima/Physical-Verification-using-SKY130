@@ -1,0 +1,82 @@
+* NGSPICE file created from inverter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_BZBQCZ a_n173_n150# a_n78_n150# a_63_n238# a_n129_n238#
++ w_n311_n360# a_114_n150# a_18_n150# a_n33_172#
+X0 a_114_n150# a_63_n238# a_18_n150# w_n311_n360# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+X1 a_n78_n150# a_n129_n238# a_n173_n150# w_n311_n360# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+X2 a_18_n150# a_n33_172# a_n78_n150# w_n311_n360# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+C0 a_n129_n238# a_n173_n150# 0.00fF
+C1 a_n33_172# a_63_n238# 0.02fF
+C2 a_18_n150# a_n78_n150# 0.17fF
+C3 a_n173_n150# a_114_n150# 0.04fF
+C4 a_n78_n150# a_n33_172# 0.00fF
+C5 a_18_n150# a_n33_172# 0.01fF
+C6 a_n173_n150# a_n78_n150# 0.17fF
+C7 a_n129_n238# a_63_n238# 0.04fF
+C8 a_n173_n150# a_18_n150# 0.11fF
+C9 a_63_n238# a_114_n150# 0.01fF
+C10 a_n129_n238# a_n78_n150# 0.01fF
+C11 a_n78_n150# a_114_n150# 0.11fF
+C12 a_18_n150# a_114_n150# 0.17fF
+C13 a_18_n150# a_63_n238# 0.00fF
+C14 a_n129_n238# a_n33_172# 0.02fF
+C15 a_114_n150# w_n311_n360# 0.19fF
+C16 a_18_n150# w_n311_n360# 0.13fF
+C17 a_n78_n150# w_n311_n360# 0.13fF
+C18 a_n173_n150# w_n311_n360# 0.19fF
+C19 a_63_n238# w_n311_n360# 0.21fF
+C20 a_n129_n238# w_n311_n360# 0.21fF
+C21 a_n33_172# w_n311_n360# 0.16fF
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_UT24HJ VSUBS a_n173_n150# a_n78_n150# a_n33_181# w_n311_n369#
++ a_63_n247# a_n129_n247# a_114_n150# a_18_n150#
+X0 a_114_n150# a_63_n247# a_18_n150# w_n311_n369# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+X1 a_n78_n150# a_n129_n247# a_n173_n150# w_n311_n369# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+X2 a_18_n150# a_n33_181# a_n78_n150# w_n311_n369# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=180000u
+C0 w_n311_n369# a_n129_n247# 0.05fF
+C1 a_114_n150# a_n78_n150# 0.11fF
+C2 a_n129_n247# a_n78_n150# 0.00fF
+C3 a_n129_n247# a_n33_181# 0.02fF
+C4 a_18_n150# a_114_n150# 0.17fF
+C5 a_114_n150# a_63_n247# 0.00fF
+C6 a_114_n150# a_n173_n150# 0.04fF
+C7 a_n129_n247# a_63_n247# 0.04fF
+C8 w_n311_n369# a_n78_n150# 0.12fF
+C9 w_n311_n369# a_n33_181# 0.09fF
+C10 a_n129_n247# a_n173_n150# 0.00fF
+C11 a_n33_181# a_n78_n150# 0.00fF
+C12 a_18_n150# w_n311_n369# 0.12fF
+C13 w_n311_n369# a_63_n247# 0.05fF
+C14 a_18_n150# a_n78_n150# 0.17fF
+C15 a_18_n150# a_n33_181# 0.00fF
+C16 w_n311_n369# a_n173_n150# 0.18fF
+C17 a_63_n247# a_n33_181# 0.02fF
+C18 a_n173_n150# a_n78_n150# 0.17fF
+C19 w_n311_n369# a_114_n150# 0.18fF
+C20 a_18_n150# a_63_n247# 0.00fF
+C21 a_18_n150# a_n173_n150# 0.11fF
+C22 a_114_n150# VSUBS 0.01fF
+C23 a_18_n150# VSUBS 0.01fF
+C24 a_n78_n150# VSUBS 0.01fF
+C25 a_n173_n150# VSUBS 0.01fF
+C26 a_63_n247# VSUBS 0.13fF
+C27 a_n129_n247# VSUBS 0.13fF
+C28 a_n33_181# VSUBS 0.13fF
+C29 w_n311_n369# VSUBS 2.82fF
+.ends
+
+.subckt inverter vi vo vdd vss
+XXM1 vo vdd vi vi vdd vdd vo vi sky130_fd_pr__nfet_01v8_BZBQCZ
+XXM2 vdd vss vo vi vss vi vi vo vss sky130_fd_pr__pfet_01v8_UT24HJ
+C0 vi vo 0.93fF
+C1 m1_404_1750# vo 0.02fF
+C2 vi vss 0.89fF
+C3 m1_404_1750# vss 0.01fF
+C4 vss vo 0.59fF
+C5 m1_404_1750# vdd -0.01fF $ **FLOATING
+C6 vss vdd 3.85fF
+C7 vo vdd 1.28fF
+C8 vi vdd 3.65fF
+.ends
+
