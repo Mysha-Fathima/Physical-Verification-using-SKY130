@@ -54,8 +54,6 @@ Covered front-end physical design rules associated with device and lower-level l
 
 Introduced the design rules associated with Deep N-Well structures and their implementation in the layout.
 
-<img width="1024" height="679" alt="image" src="https://github.com/user-attachments/assets/ca57dfe7-5527-4580-a819-3e5b34685bb1" />
-
 <img width="1024" height="679" alt="image" src="https://github.com/user-attachments/assets/65b9079c-9199-4717-9383-e8f7dd449c30" />
 
 **Evidence:** The screenshot shows the Deep N-Well-related rules covered during the session.
