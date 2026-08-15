@@ -62,7 +62,7 @@ Introduced the design rules associated with Deep N-Well structures and their imp
 
 Covered physical design rules related to device structures and their layout requirements.
 
-<img width="738" height="572" alt="image" src="https://github.com/user-attachments/assets/eaf5d967-f40a-4e6b-a731-16a9896985fb" />
+<img width="1024" height="857" alt="image" src="https://github.com/user-attachments/assets/2bb779c9-8bfc-4b16-b7da-fe29b98746e9" />
 
 **Evidence:** The screenshot demonstrates the device-related rules discussed during the lecture.
 
