@@ -67,8 +67,6 @@ verification.
 
 <img width="751" height="589" alt="image" src="https://github.com/user-attachments/assets/4e667bc0-7c1f-4f59-8cd5-9bb8cb64d2dc" />
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9a6b1e4c-594d-415f-a14e-77438410a1c5" />
-
 <img width="754" height="608" alt="image" src="https://github.com/user-attachments/assets/5011f849-1345-4515-9bf0-589cabd1fa90" />
 
 **Evidence:** Screenshot showing Netgen or its LVS comparison environment.
