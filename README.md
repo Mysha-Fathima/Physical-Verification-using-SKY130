@@ -1,9 +1,10 @@
-`markdown
+`
+<p align="center">
 # 🧭 VSD Physical Verification Workshop
 
 ### Open-Source VLSI Physical Design & Verification using SKY130
 
-<p align="center">
+
   <b>📅 10 August 2026 – 19 August 2026</b><br>
   <b>🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII</b><br>
   <b>🛠️ Open-Source EDA Tools • SKY130 PDK</b>
@@ -124,88 +125,88 @@ The workshop focused on understanding how a digital design progresses from **RTL
 
 ## 🔄 Complete Physical Design Flow
 
-text
-┌────────────────────────┐
-│     RTL / Verilog      │
-└───────────┬────────────┘
+<pre>
+┌──────────────────────┐
+│     RTL / Verilog    │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│      Synthesis       │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│    Floorplanning     │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│      Placement       │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│         CTS          │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│       Routing        │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│   Physical Layout    │
+└──────────┬───────────┘
+           ↓
+      ┌────┴────┐
+      ↓         ↓
+┌──────────┐ ┌──────────┐
+│   DRC    │ │   LVS    │
+└────┬─────┘ └────┬─────┘
+     └──────┬──────┘
             ↓
-┌────────────────────────┐
-│       Synthesis        │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│     Floorplanning      │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│       Placement        │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│          CTS           │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│        Routing         │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│    Physical Layout     │
-└───────────┬────────────┘
-            ↓
-       ┌────┴────┐
-       ↓         ↓
-┌───────────┐ ┌───────────┐
-│    DRC    │ │    LVS    │
-└─────┬─────┘ └─────┬─────┘
-      └──────┬──────┘
-             ↓
-┌────────────────────────┐
-│ Physical Verification  │
-└───────────┬────────────┘
-            ↓
-┌────────────────────────┐
-│         GDSII           │
-└────────────────────────┘
-`
+┌──────────────────────┐
+│ Physical Verification│
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│        GDSII         │
+└──────────────────────┘
+</pre>
 
 ---
 
 ## 🔍 LVS Verification Flow
 
-text
+<pre>
 ┌────────────────────────────┐
-│ Prepare Layout + Netlist  │
+│ Prepare Layout + Netlist   │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│     Extract Netlist       │
+│      Extract Netlist       │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│      Configure LVS        │
+│       Configure LVS        │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│       Run Netgen LVS       │
+│        Run Netgen LVS      │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│   Check Devices & Nets    │
+│    Check Devices & Nets    │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│      Analyze Report       │
+│       Analyze Report       │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│      Fix & Re-run LVS     │
+│       Fix & Re-run LVS     │
 └─────────────┬──────────────┘
               ↓
 ┌────────────────────────────┐
-│       ✓ LVS Verified      │
+│        ✓ LVS Verified      │
 └────────────────────────────┘
-
+</pre>
 
 ---
 
@@ -254,11 +255,10 @@ text
 
 ## 🗂️ Repository Structure
 
-text
+<pre>
 VSD-Physical-Verification/
 │
 ├── 📘 Day1_Theory/
-│
 ├── 🧪 Day2_Lab/
 │   ├── Code-MAG/
 │   ├── Netgen/
@@ -267,7 +267,6 @@ VSD-Physical-Verification/
 │   └── ...
 │
 ├── 📘 Day3_Theory/
-│
 ├── 🧪 Day4_Lab/
 │   ├── Code-MAG/
 │   ├── Netgen/
@@ -276,7 +275,6 @@ VSD-Physical-Verification/
 │   └── ...
 │
 ├── 📘 Day5_Theory/
-│
 ├── 🧪 Day6_Lab/
 │   ├── Exercise_01/
 │   ├── Exercise_02/
@@ -284,9 +282,7 @@ VSD-Physical-Verification/
 │   └── ...
 │
 ├── 🏗️ Day7_Lab/
-│
 ├── 📘 Day8_Theory/
-│
 ├── 🧪 Day9_Lab/
 │   ├── Exercise_01/
 │   ├── Exercise_02/
@@ -296,6 +292,7 @@ VSD-Physical-Verification/
 └── 📋 Day10_Summary/
     ├── README.md
     └── Workshop_Terminal_Commands.txt
+</pre>
 
 
 ---
@@ -332,7 +329,7 @@ VSD-Physical-Verification/
 
 The workshop provided practical exposure to the complete **VLSI Physical Design and Verification workflow**, connecting theoretical concepts with hands-on implementation.
 
-text
+<pre>
        RTL
         ↓
    Synthesis
@@ -349,7 +346,7 @@ text
   Verification
         ↓
       GDSII
-
+</pre>
 
 ### 🎯 Key Takeaway
 
@@ -368,7 +365,8 @@ The workshop connected the complete journey from:
 and provided valuable hands-on experience with **physical verification, debugging, netlist analysis, and open-source EDA workflows**.
 
 ---
-
+<div align="center">
+  
 ## 👩‍💻 Author
 
 ### **Mysha Fathima**
@@ -380,8 +378,6 @@ and provided valuable hands-on experience with **physical verification, debuggin
 `VLSI Physical Design` • `Physical Verification` • `Digital Design` • `RTL-to-GDSII` • `Open-Source EDA`
 
 ---
-
-<div align="center">
 
 ### ⭐ VSD Physical Verification Workshop
 
