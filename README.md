@@ -1,37 +1,37 @@
-# 🧭 VSD Physical Verification Workshop
+# ⚡ VSD Physical Verification Workshop
+
+## Open-Source VLSI Physical Design & Verification using SKY130
 
 <p align="center">
 
-## **Open-Source VLSI Physical Design & Verification using SKY130**
+### 📅 10 August 2026 — 19 August 2026
 
-**10-Day Hands-on Workshop | SKY130 Open-Source PDK | Open-Source EDA Tools**
+**🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII**
 
-📅 **10 August 2026 – 19 August 2026**
-
-**Physical Design • DRC • LVS • PNR • RTL-to-GDSII**
+**🛠️ Open-Source EDA Tools • SKY130 PDK**
 
 </p>
 
 ---
 
-## 📖 Table of Contents
+## 📑 Table of Contents
 
-- [📖 About the Repository](#-about-the-repository)
-- [🚀 Workshop Overview](#-workshop-overview)
-- [🎯 Objectives](#-objectives)
-- [🛠️ Tools & Technologies](#️-tools--technologies)
-- [🧩 Workshop Modules](#-workshop-modules)
-- [📅 Day-wise Documentation](#-day-wise-documentation)
-- [🔄 Complete Physical Design Flow](#-complete-physical-design-flow)
-- [🔍 LVS Verification Flow](#-lvs-verification-flow)
-- [🧪 Practical Work](#-practical-work)
-- [📂 Code & File Documentation](#-code--file-documentation)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [💡 Key Learning Outcomes](#-key-learning-outcomes)
-- [🧠 Skills Strengthened](#-skills-strengthened)
-- [🏆 Workshop Outcome](#-workshop-outcome)
-- [📝 Conclusion](#-conclusion)
-- [👩‍💻 Author](#-author)
+- 📖 [About the Repository](#-about-the-repository)
+- 🚀 [Workshop Overview](#-workshop-overview)
+- 🎯 [Objectives](#-objectives)
+- 🛠️ [Tools & Technologies](#️-tools--technologies)
+- 🧩 [Workshop Modules](#-workshop-modules)
+- 📅 [Day-wise Documentation](#-day-wise-documentation)
+- 🔄 [Complete Physical Design Flow](#-complete-physical-design-flow)
+- 🔍 [LVS Verification Flow](#-lvs-verification-flow)
+- 🧪 [Practical Work](#-practical-work)
+- 📂 [Code & File Documentation](#-code--file-documentation)
+- 🗂️ [Repository Structure](#️-repository-structure)
+- 💡 [Key Learning Outcomes](#-key-learning-outcomes)
+- 🧠 [Skills Strengthened](#-skills-strengthened)
+- 🏆 [Workshop Outcome](#-workshop-outcome)
+- 📝 [Conclusion](#-conclusion)
+- 👩‍💻 [Author](#-author)
 
 ---
 ---
