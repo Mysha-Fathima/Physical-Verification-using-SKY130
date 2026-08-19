@@ -23,11 +23,69 @@ digital layouts, and parasitic-aware verification.
 
 The lab provided practical experience in performing LVS checks on
 different types of designs and understanding how layout connectivity
-is compared with the reference circuit.
-
-The exercises also helped in identifying and interpreting LVS
+is compared with the reference circuit.The exercises also helped in identifying and interpreting LVS
 mismatches across simple circuits, hierarchical designs, macros,
 digital layouts, and parasitic-aware cases.
+
+  ## 🔍 LVS Verification Flow
+
+The practical **Layout Versus Schematic (LVS)** verification workflow followed during the laboratory session is summarized below:
+
+```text
+┌──────────────────────────────┐
+│ 1. Prepare Physical Layout   │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 2. Prepare Reference Netlist │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 3. Extract Layout Information│
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 4. Generate / Obtain Netlists│
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 5. Configure LVS Comparison  │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 6. Run Netgen LVS            │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 7. Check Device, Pin & Net   │
+│    Matching                  │
+└──────────────┬───────────────┘
+               ↓
+        ┌───────────────┐
+        │ LVS Match ?   │
+        └───────┬───────┘
+          YES ↙   ↘ NO
+             ↓     ↓
+     ┌──────────┐  ┌─────────────────────┐
+     │ Final    │  │ 8. Identify         │
+     │ Verified │  │    Mismatches       │
+     └──────────┘  └──────────┬──────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │ 9. Analyze LVS      │
+                    │    Report           │
+                    └──────────┬──────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │ 10. Correct Design │
+                    └──────────┬──────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │ 11. Re-run LVS     │
+                    │     Verification   │
+                    └──────────┬──────────┘
+                               │
+                               └──────→ Repeat
 
 ## LVS Lab Exercises
 
@@ -139,22 +197,6 @@ post-layout verification.
 
 **Evidence:** Screenshot showing the parasitic-aware LVS setup, extraction, or result.
 
-## LVS Lab Flow
-
-The practical LVS verification workflow followed the general sequence:
-
-1. Prepare the physical layout.
-2. Prepare the reference circuit/netlist.
-3. Extract the layout information.
-4. Generate or obtain the required netlists.
-5. Configure the LVS comparison.
-6. Run Netgen LVS.
-7. Check device, pin, and net matching.
-8. Identify any mismatches.
-9. Analyze the LVS report.
-10. Correct the design when required.
-11. Re-run LVS to verify the result.
-
 ## Lab Summary
 
 The session provided practical exposure to Layout Versus Schematic
@@ -165,16 +207,3 @@ implementations, and parasitic-aware cases.
 This hands-on practice strengthened the understanding of how physical
 layout connectivity is verified against the intended circuit before
 finalizing a design.
-
-## Key Takeaways
-
-- Performed practical LVS checks using Netgen.
-- Learned the workflow for comparing layout and reference netlists.
-- Worked with simple circuits and subcircuits.
-- Understood the use of black-boxing during LVS.
-- Practiced LVS with SPICE netlists.
-- Verified different layout variations.
-- Performed LVS checks on macros.
-- Applied LVS to digitally placed and routed designs.
-- Gained exposure to parasitic-aware verification.
-- Learned how to read and interpret LVS results.
