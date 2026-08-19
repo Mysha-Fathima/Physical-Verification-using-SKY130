@@ -1,33 +1,39 @@
-# ⚡ VSD Physical Verification Workshop
+<div align="center">
 
-## Open-Source VLSI Physical Design & Verification using SKY130
+# ⚡ **VSD Physical Verification Workshop**
 
-<p align="center">
-### 📅 10 August 2026 — 19 August 2026
-**🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII**
-**🛠️ Open-Source EDA Tools • SKY130 PDK**
-</p>
+### 🧩 **SKY130 · Open-Source VLSI Physical Design & Verification**
+
+**📅 10 AUGUST 2026 — 19 AUGUST 2026**
+
+**🎯 PHYSICAL DESIGN** &nbsp; • &nbsp; **DRC** &nbsp; • &nbsp; **LVS** &nbsp; • &nbsp; **PNR** &nbsp; • &nbsp; **RTL → GDSII**
+
+🛠️ **Open-Source EDA Tools · SKY130 PDK**
+
+</div>
 
 ---
 
-## 📑 Table of Contents
+## 📑 **Table of Contents**
 
-- 📖 [About the Repository](#-about-the-repository)
-- 🚀 [Workshop Overview](#-workshop-overview)
-- 🎯 [Objectives](#-objectives)
-- 🛠️ [Tools & Technologies](#️-tools--technologies)
-- 🧩 [Workshop Modules](#-workshop-modules)
-- 📅 [Day-wise Documentation](#-day-wise-documentation)
-- 🔄 [Complete Physical Design Flow](#-complete-physical-design-flow)
-- 🔍 [LVS Verification Flow](#-lvs-verification-flow)
-- 🧪 [Practical Work](#-practical-work)
-- 📂 [Code & File Documentation](#-code--file-documentation)
-- 🗂️ [Repository Structure](#️-repository-structure)
-- 💡 [Key Learning Outcomes](#-key-learning-outcomes)
-- 🧠 [Skills Strengthened](#-skills-strengthened)
-- 🏆 [Workshop Outcome](#-workshop-outcome)
-- 📝 [Conclusion](#-conclusion)
-- 👩‍💻 [Author](#-author)
+| | Section |
+|:---:|:---|
+| **01** | 📖 [About the Repository](#-about-the-repository) |
+| **02** | 🚀 [Workshop Overview](#-workshop-overview) |
+| **03** | 🎯 [Objectives](#-objectives) |
+| **04** | 🛠️ [Tools & Technologies](#️-tools--technologies) |
+| **05** | 🧩 [Workshop Modules](#-workshop-modules) |
+| **06** | 📅 [Day-wise Documentation](#-day-wise-documentation) |
+| **07** | 🔄 [Complete Physical Design Flow](#-complete-physical-design-flow) |
+| **08** | 🔍 [LVS Verification Flow](#-lvs-verification-flow) |
+| **09** | 🧪 [Practical Work](#-practical-work) |
+| **10** | 📂 [Code & File Documentation](#-code--file-documentation) |
+| **11** | 🗂️ [Repository Structure](#️-repository-structure) |
+| **12** | 💡 [Key Learning Outcomes](#-key-learning-outcomes) |
+| **13** | 🧠 [Skills Strengthened](#-skills-strengthened) |
+| **14** | 🏆 [Workshop Outcome](#-workshop-outcome) |
+| **15** | 📝 [Conclusion](#-conclusion) |
+| **16** | 👩‍💻 [Author](#-author) |
 
 ---
 ---
