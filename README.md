@@ -3,6 +3,8 @@
 
 <p align="center">
 ### Open-Source VLSI Physical Design & Verification using SKY130
+</p>
+  <p align="center">
   <b>📅 10 August 2026 – 19 August 2026</b><br>
   <b>🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII</b><br>
   <b>🛠️ Open-Source EDA Tools • SKY130 PDK</b>
