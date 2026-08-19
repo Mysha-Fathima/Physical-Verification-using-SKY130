@@ -1,325 +1,390 @@
----
-
-# VSD Physical Verification Workshop
+`markdown
+# 🧭 VSD Physical Verification Workshop
 
 ### Open-Source VLSI Physical Design & Verification using SKY130
 
----
-
-## Table of Contents
-
-* About the Repository
-* Workshop Overview
-* Objectives
-* Tools & Technologies
-* Workshop Modules
-* Day-wise Documentation
-* Complete Physical Design Flow
-* Practical Work
-* Code & File Documentation
-* Repository Structure
-* Key Learning Outcomes
-* Skills Strengthened
-* Workshop Outcome
-* Conclusion
-* Author
+<p align="center">
+  <b>📅 10 August 2026 – 19 August 2026</b><br>
+  <b>🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII</b><br>
+  <b>🛠️ Open-Source EDA Tools • SKY130 PDK</b>
+</p>
 
 ---
 
-## About the Repository
+## 📑 Table of Contents
 
-This repository documents my learning and hands-on work completed during the **VSD Physical Verification Workshop**, conducted from **10 August 2026 to 19 August 2026**.
-
-The workshop provided practical exposure to the open-source VLSI physical design and verification ecosystem using the **SKY130 Open-Source PDK**.
-
-The repository contains day-wise theory notes, laboratory exercises, tool-based experiments, terminal commands, supporting files, screenshots, and practical observations developed throughout the workshop.
-
----
-
-## Workshop Overview
-
-The workshop focused on understanding how a digital design progresses from RTL toward a physically verified implementation.
-
-### Major Areas Covered
-
-* Physical Design fundamentals
-* Design Rule Checking (DRC)
-* Layout inspection and verification
-* RTL-to-GDS flow
-* OpenLane
-* Place and Route (PNR)
-* Layout Versus Schematic (LVS)
-* Netlist comparison
-* Netgen
-* Digital placement and routing
-* Parasitic-aware verification
-* Linux-based VLSI workflows
+- [📖 About the Repository](#-about-the-repository)
+- [🚀 Workshop Overview](#-workshop-overview)
+- [🎯 Objectives](#-objectives)
+- [🛠️ Tools & Technologies](#️-tools--technologies)
+- [🧩 Workshop Modules](#-workshop-modules)
+- [📅 Day-wise Documentation](#-day-wise-documentation)
+- [🔄 Complete Physical Design Flow](#-complete-physical-design-flow)
+- [🔍 LVS Verification Flow](#-lvs-verification-flow)
+- [🧪 Practical Work](#-practical-work)
+- [📂 Code & File Documentation](#-code--file-documentation)
+- [🗂️ Repository Structure](#️-repository-structure)
+- [💡 Key Learning Outcomes](#-key-learning-outcomes)
+- [🧠 Skills Strengthened](#-skills-strengthened)
+- [🏆 Workshop Outcome](#-workshop-outcome)
+- [📝 Conclusion](#-conclusion)
+- [👩‍💻 Author](#-author)
 
 ---
 
-## Objectives
+## 📖 About the Repository
 
-* Understand fundamentals of VLSI physical verification
-* Learn DRC and LVS methodology
-* Work with SKY130 Open-Source PDK
-* Gain hands-on experience with VLSI tools
-* Understand RTL-to-GDS flow
-* Study Place and Route concepts
-* Perform DRC using Magic
-* Perform LVS using Netgen
-* Understand layout extraction and netlist comparison
-* Interpret verification results
-* Build reproducible Linux-based workflows
+This repository documents my **theoretical learning, hands-on laboratory exercises, terminal workflows, tool experiments, verification results, and practical observations** completed during the **VSD Physical Verification Workshop**, conducted from **10 August 2026 to 19 August 2026**.
+
+The workshop provided practical exposure to the **open-source VLSI Physical Design and Physical Verification ecosystem** using the **SKY130 Open-Source PDK**.
+
+The repository is organized **day-wise**, providing a structured record of the concepts studied, laboratory exercises performed, source files, scripts, terminal commands, outputs, screenshots, and verification results.
 
 ---
 
-## Tools & Technologies
+## 🚀 Workshop Overview
 
-| Tool / Technology | Application                    |
-| ----------------- | ------------------------------ |
-| SKY130 PDK        | Open-source process technology |
-| Magic             | Layout creation, viewing, DRC  |
-| Netgen            | LVS and netlist comparison     |
-| OpenLane          | RTL-to-GDS automation          |
-| SPICE             | Circuit/netlist representation |
-| Linux Terminal    | Tool execution & file handling |
-| Verilog           | Digital design representation  |
-| GDSII             | Physical layout format         |
+The workshop focused on understanding how a digital design progresses from **RTL toward physical implementation and verification**.
 
----
+### 🔑 Major Areas Covered
 
-## Workshop Modules
-
-| Module   | Focus Area                                  |
-| -------- | ------------------------------------------- |
-| Module 1 | Introduction to Physical Verification & DRC |
-| Module 2 | DRC / LVS Theory and Practice               |
-| Module 3 | Front-end & Back-end Design Concepts        |
-| Module 4 | Place & Route Fundamentals                  |
-| Module 5 | LVS Fundamentals & Labs                     |
+| Area | Coverage |
+|:---|:---|
+| 🧠 **Physical Design** | Design flow and implementation fundamentals |
+| 🔍 **DRC** | Design Rule Checking and debugging |
+| 🔗 **LVS** | Layout Versus Schematic verification |
+| 🏗️ **PNR** | Placement and Routing |
+| ⚙️ **OpenLane** | RTL-to-GDSII automation |
+| 🧩 **Magic** | Layout creation, viewing and DRC |
+| 🔬 **Netgen** | LVS and netlist comparison |
+| 📄 **SPICE** | Circuit and netlist representation |
+| 🐧 **Linux** | Terminal-based VLSI workflows |
 
 ---
 
-## Day-wise Documentation
+## 🎯 Objectives
 
-### Module 1 – Introduction & DRC
-
-**Day 1 – Introduction**
-Basics of VLSI physical verification and tools
-→ `Day1_Theory/`
-
-**Day 2 – DRC Lab**
-Magic-based DRC flow using SKY130
-→ `Day2_Lab/`
-
----
-
-### Module 2 – DRC / LVS
-
-**Day 3 – Theory**
-DRC, LVS, layout connectivity concepts
-→ `Day3_Theory/`
-
-**Day 4 – Lab**
-Layout-based verification exercises
-→ `Day4_Lab/`
+- Understand fundamentals of **VLSI Physical Design and Verification**
+- Learn **DRC and LVS methodologies**
+- Work with the **SKY130 Open-Source PDK**
+- Gain hands-on experience with open-source EDA tools
+- Understand the **RTL-to-GDSII flow**
+- Study **Place & Route (PNR)**
+- Perform DRC using **Magic**
+- Perform LVS using **Netgen**
+- Understand layout extraction and netlist comparison
+- Interpret verification reports and identify mismatches
+- Develop practical **Linux-based VLSI workflows**
 
 ---
 
-### Module 3 – Front-end & Back-end
+## 🛠️ Tools & Technologies
 
-**Day 5 – Theory**
-Design flow from RTL to physical design
-→ `Day5_Theory/`
-
-**Day 6 – Lab**
-Hands-on implementation exercises
-→ `Day6_Lab/`
-
----
-
-### Module 4 – Place & Route
-
-**Day 7 – PNR & OpenLane**
-RTL-to-GDS flow and PNR fundamentals
-→ `Day7_Lab/`
+| Tool / Technology | Application |
+|:---|:---|
+| **SKY130 PDK** | Open-source process design kit |
+| **Magic** | Layout creation, viewing and DRC |
+| **Netgen** | LVS and netlist comparison |
+| **OpenLane** | RTL-to-GDSII automation |
+| **SPICE** | Circuit and netlist representation |
+| **Linux Terminal** | Tool execution and file handling |
+| **Verilog** | RTL / digital design representation |
+| **GDSII** | Physical layout representation |
 
 ---
 
-### Module 5 – LVS
+## 🧩 Workshop Modules
 
-**Day 8 – LVS Theory**
-Netgen, matching, verification concepts
-→ `Day8_Theory/`
-
-**Day 9 – LVS Lab**
-Netgen-based LVS experiments
-→ `Day9_Lab/`
-
----
-
-### Day 10 – Summary
-
-Final consolidation of all commands, scripts, and workflows
-→ `Day10_Summary/`
+| Module | Focus Area |
+|:---:|:---|
+| **Module 1** | Introduction to Physical Verification & DRC |
+| **Module 2** | DRC / LVS Theory & Practice |
+| **Module 3** | Front-End & Back-End Design Concepts |
+| **Module 4** | Place & Route Fundamentals |
+| **Module 5** | LVS Fundamentals & Hands-on Labs |
 
 ---
 
-## Complete Physical Design Flow
+# 📅 Day-wise Documentation
 
-```text
-DIGITAL DESIGN
-      ↓
-RTL / VERILOG
-      ↓
-SYNTHESIS
-      ↓
-FLOORPLANNING
-      ↓
-PLACEMENT
-      ↓
-CLOCK TREE SYNTHESIS
-      ↓
-ROUTING
-      ↓
-PHYSICAL LAYOUT
-      ↓
-   ┌───────┬───────┐
-   ↓       ↓
-  DRC     LVS
-   ↓       ↓
-   └───┬───┘
-       ↓
-PHYSICAL VERIFICATION
-       ↓
-     GDSII
-```
+| Day | Session | Major Focus | Repository |
+|:---:|:---|:---|:---|
+| **Day 1** | 📘 Theory | Introduction to Physical Verification | `Day1_Theory/` |
+| **Day 2** | 🧪 Lab | Magic-based DRC | `Day2_Lab/` |
+| **Day 3** | 📘 Theory | DRC, LVS & Connectivity | `Day3_Theory/` |
+| **Day 4** | 🧪 Lab | Layout Verification | `Day4_Lab/` |
+| **Day 5** | 📘 Theory | RTL-to-Physical Design Flow | `Day5_Theory/` |
+| **Day 6** | 🧪 Lab | Hands-on Implementation | `Day6_Lab/` |
+| **Day 7** | 🧪 Lab | PNR & OpenLane | `Day7_Lab/` |
+| **Day 8** | 📘 Theory | LVS & Netgen Concepts | `Day8_Theory/` |
+| **Day 9** | 🧪 Lab | Netgen-based LVS | `Day9_Lab/` |
+| **Day 10** | 📋 Summary | Commands, Scripts & Workflows | `Day10_Summary/` |
 
 ---
 
-## Practical Work
+## 🔄 Complete Physical Design Flow
 
-### DRC
-
-* Layout inspection using Magic
-* Error detection and correction
-* DRC clean verification
-
-### OpenLane / PNR
-
-* RTL-to-GDS flow
-* Placement & routing stages
-* Physical implementation
-
-### LVS
-
-* Netlist comparison using Netgen
-* Subcircuit verification
-* Macro verification
-* Parasitic-aware checks
+text
+┌────────────────────────┐
+│     RTL / Verilog      │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│       Synthesis        │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│     Floorplanning      │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│       Placement        │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│          CTS           │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│        Routing         │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│    Physical Layout     │
+└───────────┬────────────┘
+            ↓
+       ┌────┴────┐
+       ↓         ↓
+┌───────────┐ ┌───────────┐
+│    DRC    │ │    LVS    │
+└─────┬─────┘ └─────┬─────┘
+      └──────┬──────┘
+             ↓
+┌────────────────────────┐
+│ Physical Verification  │
+└───────────┬────────────┘
+            ↓
+┌────────────────────────┐
+│         GDSII           │
+└────────────────────────┘
+`
 
 ---
 
-## Code & File Documentation
+## 🔍 LVS Verification Flow
 
-### File Types
+text
+┌────────────────────────────┐
+│ Prepare Layout + Netlist  │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│     Extract Netlist       │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│      Configure LVS        │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│       Run Netgen LVS       │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│   Check Devices & Nets    │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│      Analyze Report       │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│      Fix & Re-run LVS     │
+└─────────────┬──────────────┘
+              ↓
+┌────────────────────────────┐
+│       ✓ LVS Verified      │
+└────────────────────────────┘
 
-| Type         | Purpose         |
-| ------------ | --------------- |
-| .tcl         | Tool automation |
-| .sh          | Shell scripts   |
-| .v           | Verilog RTL     |
-| .sp / .spice | Netlists        |
-| .gds         | Layout          |
-| .lef         | Library format  |
-| .def         | Design data     |
-| .mag         | Magic layout    |
-| .log         | Logs            |
-| .rpt         | Reports         |
 
 ---
 
-## Repository Structure
+## 🧪 Practical Work
 
-```text
+### 🔍 Design Rule Checking — DRC
+
+* Layout inspection using **Magic**
+* Identification and correction of design-rule violations
+* DRC-clean verification
+
+### 🏗️ Place & Route — PNR
+
+* RTL-to-GDSII workflow
+* Floorplanning and placement
+* Clock Tree Synthesis
+* Routing and physical implementation
+
+### 🔗 Layout Versus Schematic — LVS
+
+* Layout netlist extraction
+* Netlist comparison using **Netgen**
+* Device and connectivity verification
+* LVS report analysis
+* Mismatch identification and debugging
+
+---
+
+## 📂 Code & File Documentation
+
+|    Extension   | Purpose                         |
+| :------------: | :------------------------------ |
+|     `.tcl`     | Tool configuration / automation |
+|      `.sh`     | Shell scripts                   |
+|      `.v`      | Verilog RTL                     |
+| `.sp / .spice` | SPICE netlists                  |
+|     `.gds`     | Physical layout                 |
+|     `.lef`     | Library Exchange Format         |
+|     `.def`     | Design Exchange Format          |
+|     `.mag`     | Magic layout                    |
+|     `.sch`     | Schematic                       |
+|     `.log`     | Execution logs                  |
+|     `.rpt`     | Reports                         |
+
+---
+
+## 🗂️ Repository Structure
+
+text
 VSD-Physical-Verification/
 │
-├── Day1_Theory/
-├── Day2_Lab/
-├── Day3_Theory/
-├── Day4_Lab/
-├── Day5_Theory/
-├── Day6_Lab/
-├── Day7_Lab/
-├── Day8_Theory/
-├── Day9_Lab/
-└── Day10_Summary/
-```
+├── 📘 Day1_Theory/
+│
+├── 🧪 Day2_Lab/
+│   ├── Code-MAG/
+│   ├── Netgen/
+│   ├── Xschem/
+│   ├── SPICE/
+│   └── ...
+│
+├── 📘 Day3_Theory/
+│
+├── 🧪 Day4_Lab/
+│   ├── Code-MAG/
+│   ├── Netgen/
+│   ├── Xschem/
+│   ├── SPICE/
+│   └── ...
+│
+├── 📘 Day5_Theory/
+│
+├── 🧪 Day6_Lab/
+│   ├── Exercise_01/
+│   ├── Exercise_02/
+│   ├── Exercise_03/
+│   └── ...
+│
+├── 🏗️ Day7_Lab/
+│
+├── 📘 Day8_Theory/
+│
+├── 🧪 Day9_Lab/
+│   ├── Exercise_01/
+│   ├── Exercise_02/
+│   ├── Exercise_03/
+│   └── ...
+│
+└── 📋 Day10_Summary/
+    ├── README.md
+    └── Workshop_Terminal_Commands.txt
+
 
 ---
 
-## Key Learning Outcomes
+## 💡 Key Learning Outcomes
 
 * DRC methodology and debugging
-* LVS verification flow
-* RTL-to-GDS understanding
-* Layout analysis using Magic
-* Netlist comparison using Netgen
-* OpenLane flow execution
-* Linux-based VLSI workflow
+* LVS verification and netlist comparison
+* RTL-to-GDSII flow
+* Physical layout analysis using Magic
+* Netlist verification using Netgen
+* OpenLane-based physical implementation
+* Linux terminal-based VLSI workflows
+* Physical verification result analysis
 
 ---
 
-## Skills Strengthened
+## 🧠 Skills Strengthened
 
-* VLSI Physical Design
-* Physical Verification (DRC & LVS)
-* RTL-to-GDS flow
-* OpenLane automation
-* Layout analysis (Magic)
-* Netlist verification (Netgen)
-* Linux terminal usage
-
----
-
-## Workshop Outcome
-
-This workshop provided hands-on exposure to the complete VLSI physical design and verification flow.
-
-It strengthened understanding of:
-
-* Design → Layout → Verification flow
-* Open-source EDA tools
-* Real-world physical design debugging
-* Industry-relevant verification techniques
+| Category            | Skills                                  |
+| :------------------ | :-------------------------------------- |
+| **VLSI**            | Physical Design & Physical Verification |
+| **Verification**    | DRC • LVS • Netlist Comparison          |
+| **Physical Design** | PNR • RTL-to-GDSII                      |
+| **EDA Tools**       | Magic • Netgen • OpenLane               |
+| **HDL**             | Verilog                                 |
+| **Circuit**         | SPICE / Netlists                        |
+| **Environment**     | Linux Terminal                          |
+| **Documentation**   | Technical Workflow & Result Analysis    |
 
 ---
 
-## Conclusion
+## 🏆 Workshop Outcome
 
-The VSD Physical Verification Workshop helped build a strong foundation in **VLSI Physical Design and Verification** using open-source tools and practical workflows.
+The workshop provided practical exposure to the complete **VLSI Physical Design and Verification workflow**, connecting theoretical concepts with hands-on implementation.
 
-It covered the complete journey from **RTL to GDSII with verification stages (DRC & LVS)**.
+text
+       RTL
+        ↓
+   Synthesis
+        ↓
+ Physical Design
+        ↓
+     Layout
+        ↓
+   ┌────┴────┐
+   ↓         ↓
+  DRC       LVS
+   └────┬────┘
+        ↓
+  Verification
+        ↓
+      GDSII
+
+
+### 🎯 Key Takeaway
+
+> **A practical understanding of open-source VLSI physical design, physical verification, debugging, and Linux-based EDA workflows.**
 
 ---
 
-## Author
+## 📝 Conclusion
 
-**Mysha Fathima**
-B.Tech – Electronics and Communication Engineering
+The **VSD Physical Verification Workshop** strengthened my foundation in **VLSI Physical Design and Physical Verification** through practical exposure to open-source tools and the SKY130 PDK.
 
-Interests:
+The workshop connected the complete journey from:
 
-* VLSI Physical Design
-* Physical Verification
-* Digital Design
-* RTL-to-GDS Flow
-* Open-Source EDA Tools
+**RTL → Physical Implementation → Layout → DRC/LVS → GDSII**
+
+and provided valuable hands-on experience with **physical verification, debugging, netlist analysis, and open-source EDA workflows**.
 
 ---
 
-If you want, I can also:
-✅ make this GitHub-ready with badges
-✅ add screenshots section
-✅ convert it into a professional portfolio README
-✅ or compress it into a 1-page resume project description
+## 👩‍💻 Author
+
+### **Mysha Fathima**
+
+**B.Tech — Electronics & Communication Engineering**
+
+**Areas of Interest**
+
+`VLSI Physical Design` • `Physical Verification` • `Digital Design` • `RTL-to-GDSII` • `Open-Source EDA`
+
+---
+
+<div align="center">
+
+### ⭐ VSD Physical Verification Workshop
+
+**Learn • Implement • Verify • Document**
+
+</div>
