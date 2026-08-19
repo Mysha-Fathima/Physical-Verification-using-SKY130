@@ -1,4 +1,3 @@
-`
 # 🧭 VSD Physical Verification Workshop
 
 <p align="center">
