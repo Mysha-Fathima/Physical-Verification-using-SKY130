@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1786994091
+use exercise_11_fill_pattern_0_0  exercise_11_fill_pattern_0_0_0
+timestamp 1786994091
+transform 1 0 0 0 1 0
+box -1572 955 137818 139695
+<< end >>

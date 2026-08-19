@@ -1,0 +1,92 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1786877763
+<< error_p >>
+rect 1431 -449 1558 -437
+rect 1431 -477 1586 -465
+<< locali >>
+rect 334 -166 528 -142
+rect -44 -178 20 -172
+rect -44 -214 -28 -178
+rect 6 -214 20 -178
+rect -44 -228 20 -214
+rect 334 -322 362 -166
+rect 502 -322 528 -166
+rect 334 -344 528 -322
+<< viali >>
+rect -28 -214 6 -178
+rect 362 -322 502 -166
+rect 900 -224 968 -156
+<< metal1 >>
+rect 334 -166 528 -142
+rect -44 -178 20 -172
+rect -44 -214 -28 -178
+rect 6 -214 20 -178
+rect -44 -228 20 -214
+rect 334 -322 362 -166
+rect 502 -322 528 -166
+rect 882 -156 988 -148
+rect 882 -224 900 -156
+rect 968 -224 988 -156
+rect 882 -230 988 -224
+rect 334 -344 528 -322
+rect 1488 -379 1558 -166
+rect 1965 -253 1971 -183
+rect 2041 -253 2047 -183
+rect 1971 -308 2041 -253
+rect 1750 -378 2041 -308
+rect 1361 -449 1558 -379
+rect 1361 -465 1431 -449
+rect 1361 -535 1787 -465
+<< via1 >>
+rect 1971 -253 2041 -183
+<< metal2 >>
+rect 1971 -183 2041 -177
+rect 1962 -253 1971 -183
+rect 2041 -253 2050 -183
+rect 1971 -259 2041 -253
+<< via2 >>
+rect 1971 -253 2041 -183
+<< metal3 >>
+rect 1639 221 1709 227
+rect 1639 -183 1709 151
+rect 1966 -183 2046 -178
+rect 1639 -253 1971 -183
+rect 2041 -253 2046 -183
+rect 1966 -258 2046 -253
+<< via3 >>
+rect 1639 151 1709 221
+<< metal4 >>
+rect 1638 221 1710 222
+rect 1638 151 1639 221
+rect 1709 151 1952 221
+rect 1638 150 1710 151
+<< via4 >>
+rect 1952 26 2272 346
+rect 2518 -664 2838 -344
+rect 2542 -1036 2814 -764
+<< metal5 >>
+rect 1928 346 2296 370
+rect 1928 26 1952 346
+rect 2272 26 2616 346
+rect 1928 2 2616 26
+rect 2296 -320 2616 2
+rect 2296 -344 2862 -320
+rect 2296 -664 2518 -344
+rect 2838 -664 2962 -344
+rect 2494 -688 2862 -664
+rect 2518 -764 2838 -688
+rect 2518 -1036 2542 -764
+rect 2814 -1036 2838 -764
+rect 2518 -1060 2838 -1036
+<< labels >>
+flabel space -32 16 -32 16 0 FreeSans 320 0 0 0 Exercise_2a
+flabel space -14 -74 -14 -74 0 FreeSans 320 0 0 0 Via_size
+flabel space 440 14 440 14 0 FreeSans 320 0 0 0 Exercise_2b
+flabel space 438 -66 438 -66 0 FreeSans 320 0 0 0 Multiple_vias
+flabel space 948 4 948 4 0 FreeSans 320 0 0 0 Exercise_2c
+flabel space 938 -68 938 -68 0 FreeSans 320 0 0 0 Via_overlap
+flabel space 1540 -4 1540 -4 0 FreeSans 320 0 0 0 Exercise_2d
+flabel space 1534 -66 1534 -66 0 FreeSans 320 0 0 0 Auto_generate_via
+<< end >>
