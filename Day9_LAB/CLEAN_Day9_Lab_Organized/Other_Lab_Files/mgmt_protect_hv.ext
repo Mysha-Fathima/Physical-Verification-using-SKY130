@@ -1,0 +1,320 @@
+timestamp 1625578025
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use sky130_fd_sc_hvl__fill_1 FILLER_1_56 1 0 6336 0 1 1628
+use sky130_fd_sc_hvl__conb_1 mprj_logic_high_hvl 1 0 13920 0 1 1628
+use sky130_fd_sc_hvl__conb_1 mprj2_logic_high_hvl 1 0 6432 0 1 1628
+use sky130_fd_sc_hvl__lsbufhv2lv_1 mprj_logic_high_lv 1 0 28128 0 1 1628
+use sky130_fd_sc_hvl__lsbufhv2lv_1 mprj2_logic_high_lv 1 0 8832 0 1 1628
+use sky130_fd_sc_hvl__fill_2 FILLER_1_300 1 0 29760 0 1 1628
+use sky130_fd_sc_hvl__fill_2 FILLER_2_300 1 0 29760 0 -1 3256
+port "vssa1" 4 15456 2494 15456 2494 m3
+port "vssa1" 4 11360 2035 11360 2035 m2
+port "vssa1" 4 27360 2035 27360 2035 m2
+port "vssa2" 6 15456 2894 15456 2894 m3
+port "vssa2" 6 11760 2035 11760 2035 m2
+port "vssa2" 6 27760 2035 27760 2035 m2
+port "vccd" 1 15456 963 15456 963 m3
+port "vccd" 1 15456 3123 15456 3123 m3
+port "vccd" 1 18960 2035 18960 2035 m2
+port "vdda1" 3 15456 1414 15456 1414 m3
+port "vdda1" 3 19360 2035 19360 2035 m2
+port "vdda2" 5 15456 1814 15456 1814 m3
+port "vdda2" 5 19760 2035 19760 2035 m2
+port "vssd" 2 15456 2043 15456 2043 m3
+port "vssd" 2 10960 2035 10960 2035 m2
+port "vssd" 2 26960 2035 26960 2035 m2
+port "mprj2_vdd_logic1" 7 400 962 400 962 m3
+port "mprj_vdd_logic1" 8 400 2886 400 2886 m3
+node "vssa1" 12 10802 27360 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 196860 4064 487734 12406 1769688 58416 0 0 0 0 0 0
+node "vssa2" 13 15960.8 27760 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 265608 5412 572550 13208 1771812 58428 0 0 0 0 0 0
+node "vccd" 6 49348.7 18960 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4419429 103216 152985 5218 3479832 116232 0 0 0 0 0 0
+node "vdda1" 11 16006.6 19360 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 391680 8088 599910 10558 1796116 58676 0 0 0 0 0 0
+node "vdda2" 11 15615.7 19760 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 446760 9168 452830 9024 1793816 58656 0 0 0 0 0 0
+node "vssd" 11 32734.5 26960 2035 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4076532 80544 305280 10416 1740312 58128 0 0 0 0 0 0
+node "mprj2_vdd_logic1" 56 4641.22 400 962 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 248896 17734 29368 2000 99234 1938 0 0 0 0 0 0
+node "mprj_vdd_logic1" 17 12935 400 2886 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 789184 56326 31440 2148 99234 1938 0 0 0 0 0 0
+node "li_14047_1870#" 139 6530.06 14047 1870 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 406532 28988 25584 1760 0 0 0 0 0 0 0 0
+node "li_6655_2240#" 84 1312.53 6655 2240 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 73220 5180 15224 1020 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "mprj2_vdd_logic1" "vccd" 34.0541
+cap "mprj_vdd_logic1" "mprj2_vdd_logic1" 3337.59
+cap "li_14047_1870#" "vssd" 3011.15
+cap "mprj_vdd_logic1" "vccd" 3235.93
+cap "vssa1" "vccd" 6089.39
+cap "mprj_vdd_logic1" "vssa1" 560.52
+cap "vdda2" "vssd" 11689.2
+cap "vssd" "vssa2" 889.886
+cap "mprj_vdd_logic1" "li_6655_2240#" 17.7985
+cap "vssa1" "li_6655_2240#" 49.612
+cap "li_14047_1870#" "vccd" 2061.26
+cap "mprj_vdd_logic1" "li_14047_1870#" 14029.5
+cap "mprj2_vdd_logic1" "vdda2" 2668.09
+cap "vssa1" "li_14047_1870#" 399.202
+cap "vdda1" "vssd" 1009.05
+cap "mprj2_vdd_logic1" "vssa2" 1110.02
+cap "vccd" "vdda2" 691.812
+cap "mprj_vdd_logic1" "vdda2" 303.014
+cap "vssa1" "vdda2" 2641.58
+cap "vccd" "vssa2" 11531.2
+cap "mprj_vdd_logic1" "vssa2" 710.32
+cap "vssa1" "vssa2" 6611.56
+cap "vdda2" "li_6655_2240#" 754.694
+cap "vssa2" "li_6655_2240#" 133.52
+cap "li_14047_1870#" "vdda2" 53.188
+cap "vdda1" "vccd" 6676.38
+cap "mprj_vdd_logic1" "vdda1" 186.708
+cap "vssa1" "vdda1" 2687.07
+cap "li_14047_1870#" "vssa2" 53.188
+cap "vdda2" "vssa2" 653.3
+cap "vdda1" "li_14047_1870#" 319.347
+cap "mprj2_vdd_logic1" "vssd" 403.389
+cap "vdda1" "vdda2" 6299.56
+cap "vccd" "vssd" 1082.6
+cap "mprj_vdd_logic1" "vssd" 3048
+cap "vssa1" "vssd" 6285.52
+cap "vdda1" "vssa2" 228.42
+subcap "mprj2_vdd_logic1" -3554.62
+subcap "li_6655_2240#" -957.849
+cap "mprj_vdd_logic1" "mprj2_logic_high_hvl/LO" 111.61
+cap "FILLER_1_56/VNB" "mprj2_logic_high_hvl/LO" 4.9738e-14
+cap "FILLER_1_56/VPWR" "mprj2_logic_high_hvl/LO" 41.1288
+cap "mprj_vdd_logic1" "FILLER_1_56/VNB" 89.7178
+cap "mprj_vdd_logic1" "mprj2_logic_high_hvl/HI" 97.25
+cap "FILLER_1_56/VPWR" "mprj_vdd_logic1" 37.8947
+cap "FILLER_1_56/VPWR" "FILLER_1_56/VNB" 102.069
+cap "vssd" "mprj2_logic_high_hvl/LO" 86.9427
+cap "FILLER_1_56/VPWR" "mprj2_logic_high_hvl/HI" 117.72
+cap "mprj2_logic_high_hvl/HI" "vssd" 50.29
+cap "mprj2_vdd_logic1" "mprj2_logic_high_hvl/LO" 54.0068
+cap "FILLER_1_56/VPWR" "vssd" 59.0964
+cap "mprj2_vdd_logic1" "FILLER_1_56/VNB" 494.577
+cap "mprj2_vdd_logic1" "mprj2_logic_high_hvl/HI" 168.328
+subcap "li_6655_2240#" -1160.59
+cap "mprj2_logic_high_lv/VPWR" "mprj_vdd_logic1" 63.6842
+cap "vssd" "mprj2_logic_high_lv/a_389_1337#" 31.3216
+cap "mprj2_logic_high_lv/a_389_141#" "mprj2_logic_high_lv/VPWR" 90.1288
+cap "mprj2_logic_high_lv/a_30_207#" "mprj2_logic_high_lv/X" 98.7565
+cap "vssd" "mprj2_logic_high_lv/X" 67.5291
+cap "mprj2_logic_high_lv/LVPWR" "mprj_vdd_logic1" 83.5214
+cap "mprj2_logic_high_lv/a_30_1337#" "mprj2_logic_high_lv/VPWR" 49.8828
+cap "mprj2_logic_high_lv/X" "mprj2_logic_high_lv/VGND" 698.953
+cap "mprj2_logic_high_lv/a_30_207#" "vssd" 211.589
+cap "mprj2_logic_high_lv/X" "mprj_vdd_logic1" 73.431
+cap "mprj2_logic_high_lv/a_389_141#" "mprj2_logic_high_lv/X" 76.9668
+cap "mprj2_logic_high_lv/a_30_207#" "mprj2_logic_high_lv/VGND" -4.9738e-14
+cap "vssd" "mprj2_logic_high_lv/VGND" 79.042
+cap "mprj2_logic_high_lv/a_30_207#" "mprj_vdd_logic1" 343.094
+cap "mprj2_logic_high_lv/a_30_1337#" "mprj2_logic_high_lv/X" 36.923
+cap "mprj2_logic_high_lv/X" "mprj2_logic_high_lv/VPWR" 66.9707
+cap "mprj2_logic_high_lv/a_389_141#" "vssd" 174.156
+cap "mprj2_logic_high_lv/VGND" "mprj_vdd_logic1" 150.835
+cap "mprj2_logic_high_lv/a_30_207#" "mprj2_logic_high_lv/VPWR" 198.788
+cap "mprj2_logic_high_lv/X" "mprj2_logic_high_lv/LVPWR" 3.29545
+cap "mprj2_logic_high_lv/a_389_141#" "mprj2_logic_high_lv/VGND" 3.55271e-14
+cap "mprj2_logic_high_lv/a_30_1337#" "vssd" 72.1
+cap "vssd" "mprj2_logic_high_lv/VPWR" 15.3732
+cap "mprj2_logic_high_lv/a_389_141#" "mprj_vdd_logic1" 156.272
+cap "mprj2_logic_high_lv/VPWR" "mprj2_logic_high_lv/VGND" 283.285
+cap "vssd" "mprj2_logic_high_lv/LVPWR" 34.2434
+cap "mprj2_logic_high_lv/a_30_1337#" "mprj_vdd_logic1" 51.76
+cap "vssd" "mprj2_logic_high_lv/LVPWR" 0.576
+cap "vssd" "mprj2_logic_high_lv/VPWR" 351.269
+cap "mprj_vdd_logic1" "mprj2_logic_high_lv/LVPWR" 27.4027
+cap "vssd" "mprj_vdd_logic1" 42.5281
+cap "mprj_vdd_logic1" "mprj2_logic_high_lv/VPWR" 43.6842
+subcap "li_14047_1870#" -6405.85
+cap "mprj_logic_high_hvl/HI" "mprj_logic_high_hvl/VGND" 1.77636e-15
+cap "mprj_logic_high_hvl/HI" "vdda2" -6.1801
+cap "mprj_logic_high_hvl/VPWR" "mprj_vdd_logic1" 5.26316
+cap "mprj_vdd_logic1" "mprj_logic_high_hvl/VGND" 5.12387
+cap "mprj_logic_high_hvl/VPWR" "vssd" 2.628
+subcap "li_14047_1870#" -5770.77
+cap "mprj_vdd_logic1" "mprj_logic_high_hvl/HI" 97.25
+cap "mprj_logic_high_hvl/HI" "mprj_logic_high_hvl/LO" 54.0068
+cap "vssd" "mprj_logic_high_hvl/HI" 50.29
+cap "mprj_logic_high_hvl/HI" "vdda2" -449.985
+cap "mprj_vdd_logic1" "mprj_logic_high_hvl/VGND" 78.4453
+cap "mprj_logic_high_hvl/LO" "mprj_logic_high_hvl/VGND" 5.68434e-14
+cap "mprj_vdd_logic1" "mprj_logic_high_hvl/LO" 111.61
+cap "mprj_logic_high_hvl/VGND" "vdda2" 104.189
+cap "mprj_vdd_logic1" "vdda1" 26.3158
+cap "vssd" "mprj_logic_high_hvl/LO" 86.9427
+cap "mprj_logic_high_hvl/LO" "vdda2" 42.099
+cap "vssd" "vdda1" 54.7404
+cap "mprj_logic_high_hvl/HI" "mprj_logic_high_hvl/VGND" 108.854
+subcap "vccd" -48602
+subcap "vdda1" -14959.8
+subcap "vdda2" -15155.6
+subcap "vdda1" -15573.3
+subcap "vdda2" -14530.9
+subcap "vssd" -31698.1
+subcap "vssa1" -10739.9
+subcap "vssa2" -15464.3
+subcap "vssd" -31277.9
+subcap "vssa2" -16070.5
+cap "mprj_logic_high_lv/VGND" "vdda2" 286.754
+cap "mprj_logic_high_lv/a_30_1337#" "vssd" 71.4336
+cap "mprj_logic_high_lv/a_389_141#" "vdda2" 91.099
+cap "mprj_logic_high_lv/VGND" "li_14047_1870#" 26.8631
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/X" 49.3794
+cap "mprj_logic_high_lv/X" "mprj_logic_high_lv/a_30_207#" 343.094
+cap "mprj_logic_high_lv/X" "mprj_logic_high_lv/a_30_1337#" 51.76
+cap "mprj_logic_high_lv/X" "vdda2" 78.4265
+cap "mprj_logic_high_lv/a_389_1337#" "mprj_logic_high_lv/VPWR" 4.774
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/a_30_207#" -4.44089e-15
+cap "mprj_logic_high_lv/LVPWR" "vssd" 34.8194
+cap "mprj_logic_high_lv/a_30_207#" "vdda2" 200.057
+cap "mprj_logic_high_lv/a_30_1337#" "vdda2" 50.5452
+cap "mprj_logic_high_lv/a_30_207#" "li_14047_1870#" 104.318
+cap "mprj_logic_high_lv/a_30_1337#" "li_14047_1870#" 209.446
+cap "mprj_logic_high_lv/VGND" "vssd" 79.042
+cap "mprj_logic_high_lv/X" "mprj_logic_high_lv/LVPWR" 51.5753
+cap "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/a_389_141#" 5.68434e-14
+cap "mprj_logic_high_lv/a_389_141#" "vssd" 174.156
+cap "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/X" 137.125
+cap "mprj_logic_high_lv/X" "mprj_logic_high_lv/a_389_141#" 102.915
+cap "mprj_logic_high_lv/X" "vssd" 67.5291
+cap "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/VPWR" 163.382
+cap "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/a_30_207#" -5.68434e-14
+cap "mprj_logic_high_lv/VPWR" "vssd" 15.3732
+cap "li_14047_1870#" "mprj_logic_high_lv/LVPWR" 0.987461
+cap "mprj_logic_high_lv/a_389_1337#" "vssd" 31.3216
+cap "mprj_logic_high_lv/a_30_207#" "vssd" 211.589
+cap "vssd" "mprj_logic_high_lv/VPB" 7.632
+subcap "mprj_vdd_logic1" -12311.3
+subcap "li_6655_2240#" -1743.98
+cap "FILLER_1_56/VPWR" "mprj2_logic_high_hvl/HI" 235.154
+cap "FILLER_1_56/VPWR" "mprj_vdd_logic1" 37.8947
+cap "mprj2_logic_high_hvl/LO" "mprj2_logic_high_hvl/HI" 40.9167
+cap "FILLER_1_56/VPWR" "vssa1" 6.324
+cap "FILLER_1_56/VPWR" "mprj2_logic_high_hvl/LO" -1.74325
+subcap "li_6655_2240#" -830.793
+cap "mprj2_logic_high_lv/LVPWR" "mprj_vdd_logic1" 83.5214
+cap "mprj2_logic_high_lv/LVPWR" "vssa1" 45.245
+cap "vssa2" "mprj2_logic_high_lv/a_30_1337#" 308.735
+cap "mprj2_logic_high_lv/A" "mprj2_logic_high_lv/LVPWR" 22.3135
+cap "mprj2_logic_high_lv/a_30_207#" "mprj2_logic_high_lv/VPWR" -43.6501
+cap "vssa2" "mprj2_logic_high_lv/a_389_1337#" 95.063
+cap "mprj2_logic_high_lv/LVPWR" "mprj2_logic_high_lv/VPWR" -745.811
+cap "vccd" "mprj2_logic_high_lv/VGND" 581.427
+cap "vssa1" "mprj2_logic_high_lv/a_30_1337#" 35.32
+cap "mprj2_logic_high_lv/VGND" "mprj2_logic_high_lv/VPWR" -11.8819
+cap "mprj2_logic_high_lv/a_389_1337#" "vssa1" 21.06
+cap "mprj2_logic_high_lv/VPWR" "mprj2_logic_high_lv/a_30_1337#" -37.5424
+cap "vccd" "mprj2_logic_high_lv/a_30_1337#" 150.887
+cap "mprj2_logic_high_lv/X" "mprj2_logic_high_lv/LVPWR" 3.29545
+cap "vssa2" "mprj2_logic_high_lv/A" 49.72
+cap "vccd" "mprj2_logic_high_lv/a_389_1337#" 72.8668
+cap "mprj2_logic_high_lv/a_389_1337#" "mprj2_logic_high_lv/VPWR" -10.095
+cap "vssa2" "mprj2_logic_high_lv/VPWR" 0.5844
+cap "mprj2_logic_high_lv/a_389_141#" "vssa1" 209.365
+cap "mprj2_logic_high_lv/VPWR" "mprj_vdd_logic1" 63.6842
+cap "mprj2_logic_high_lv/a_389_1337#" "mprj2_logic_high_lv/VGND" 7.10543e-14
+cap "vssa2" "mprj2_logic_high_lv/VGND" 79.042
+cap "mprj2_logic_high_lv/VPWR" "vssa1" 203.606
+cap "mprj2_logic_high_lv/a_389_141#" "mprj2_logic_high_lv/VPWR" -156.453
+cap "mprj2_logic_high_lv/A" "mprj2_logic_high_lv/VPWR" 172.831
+cap "vccd" "mprj2_logic_high_lv/A" 27.6412
+cap "vssa1" "mprj2_logic_high_lv/a_389_1337#" 32.5
+cap "vccd" "vssd" 13.307
+cap "mprj2_logic_high_lv/VPWR" "mprj2_logic_high_lv/a_389_1337#" -31.42
+cap "vssa1" "mprj2_logic_high_lv/VPWR" -218.746
+cap "mprj2_logic_high_lv/VPWR" "vssa2" 1.341
+cap "mprj_vdd_logic1" "mprj2_logic_high_lv/LVPWR" 27.4027
+cap "mprj2_logic_high_lv/VPWR" "mprj2_logic_high_lv/LVPWR" -318.099
+cap "mprj2_logic_high_lv/VPWR" "mprj_vdd_logic1" 43.6842
+subcap "li_14047_1870#" -6450.51
+cap "mprj_logic_high_hvl/VPWR" "mprj_vdd_logic1" 5.26316
+cap "vccd" "mprj_logic_high_hvl/VPWR" 112.478
+cap "mprj_logic_high_hvl/VPWR" "vssa1" 1.3578
+subcap "li_14047_1870#" -7327.54
+cap "mprj_logic_high_hvl/VPWR" "mprj_logic_high_hvl/HI" 4.61853e-14
+cap "vccd" "mprj_logic_high_hvl/LO" 173.387
+cap "mprj_logic_high_hvl/VPWR" "mprj_logic_high_hvl/LO" -1.74325
+cap "mprj_logic_high_hvl/VPWR" "mprj_vdd_logic1" 26.3158
+cap "mprj_logic_high_hvl/VPWR" "vssa1" 4.3338
+cap "vccd" "mprj_logic_high_hvl/HI" 57.5725
+cap "mprj_logic_high_hvl/VPWR" "vccd" 141.34
+subcap "vccd" -47106.7
+subcap "vdda1" -15622
+subcap "vdda2" -15963.7
+subcap "vdda1" -16104.1
+subcap "vdda2" -15677.5
+subcap "vssa1" -9919.63
+subcap "vssa2" -15007.2
+subcap "vssd" -32063.8
+subcap "vssa2" -15872.1
+cap "mprj_logic_high_lv/a_389_141#" "vssa1" 209.365
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/A" 296.376
+cap "vssa2" "mprj_logic_high_lv/VGND" 79.042
+cap "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/a_30_1337#" -4.9738e-14
+cap "vssa2" "mprj_logic_high_lv/a_30_1337#" 308.735
+cap "mprj_logic_high_lv/LVPWR" "mprj_logic_high_lv/VPWR" -804.564
+cap "mprj_logic_high_lv/A" "vccd" 27.6412
+cap "mprj_logic_high_lv/LVPWR" "vssa1" 45.245
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/VGND" -11.8819
+cap "mprj_logic_high_lv/VPWR" "vssa1" 248.77
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/a_389_1337#" 107.109
+cap "mprj_logic_high_lv/a_389_1337#" "vssa1" 53.56
+cap "mprj_logic_high_lv/a_30_207#" "mprj_logic_high_lv/VPWR" -43.6501
+cap "vssa2" "mprj_logic_high_lv/A" 49.72
+cap "mprj_logic_high_lv/A" "mprj_logic_high_lv/a_30_1337#" 69.1218
+cap "mprj_logic_high_lv/a_389_1337#" "vccd" 72.8668
+cap "mprj_logic_high_lv/LVPWR" "mprj_logic_high_lv/X" 51.5753
+cap "mprj_logic_high_lv/a_389_1337#" "mprj_logic_high_lv/VGND" 7.10543e-14
+cap "mprj_logic_high_lv/VPWR" "vssa2" 0.5844
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/X" 49.3794
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/a_30_1337#" -37.5424
+cap "vssa2" "mprj_logic_high_lv/a_389_1337#" 95.063
+cap "vssa1" "mprj_logic_high_lv/a_30_1337#" 35.32
+cap "mprj_logic_high_lv/VGND" "vccd" 711.919
+cap "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/a_389_141#" -156.453
+cap "mprj_logic_high_lv/LVPWR" "mprj_logic_high_lv/A" 3.00669
+cap "vccd" "mprj_logic_high_lv/a_30_1337#" 150.887
+cap "vssa2" "mprj_logic_high_lv/VPB" 1.908
+cap "mprj_logic_high_lv/VNB" "vccd" 72.536
+cap "vssa1" "mprj_logic_high_lv/VPB" 92.253
+cap "mprj_logic_high_lv/LVPWR" "mprj_logic_high_lv/VPB" -196.093
+merge "FILLER_2_300/VPWR" "FILLER_2_300/VPB" -9092.99 0 0 0 0 142488 -2992 0 0 0 0 0 0 -209532 -520 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -209532 -520 -357922 -13912 393180 -5004 -812274 -28012 0 0 0 0 0 0
+merge "FILLER_2_300/VPB" "FILLER_1_300/VPWR"
+merge "FILLER_1_300/VPWR" "FILLER_1_300/VPB"
+merge "FILLER_1_300/VPB" "mprj_logic_high_lv/VPWR"
+merge "mprj_logic_high_lv/VPWR" "mprj_logic_high_lv/VPB"
+merge "mprj_logic_high_lv/VPB" "mprj_logic_high_hvl/VPWR"
+merge "mprj_logic_high_hvl/VPWR" "mprj_logic_high_hvl/VPB"
+merge "mprj_logic_high_hvl/VPB" "vdda1"
+merge "FILLER_2_300/VGND" "FILLER_2_300/VNB" -42721.6 0 0 44032 -828 0 0 0 0 0 0 0 0 0 0 24480 -204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24480 -204 -1709188 -66848 1120050 -10086 -1151592 -134784 0 0 0 0 0 0
+merge "FILLER_2_300/VNB" "FILLER_1_300/VGND"
+merge "FILLER_1_300/VGND" "FILLER_1_300/VNB"
+merge "FILLER_1_300/VNB" "mprj_logic_high_lv/VGND"
+merge "mprj_logic_high_lv/VGND" "mprj_logic_high_lv/VNB"
+merge "mprj_logic_high_lv/VNB" "mprj_logic_high_hvl/VGND"
+merge "mprj_logic_high_hvl/VGND" "mprj_logic_high_hvl/VNB"
+merge "mprj_logic_high_hvl/VNB" "vssa1"
+merge "vssa1" "mprj2_logic_high_lv/VGND"
+merge "mprj2_logic_high_lv/VGND" "mprj2_logic_high_lv/VNB"
+merge "mprj2_logic_high_lv/VNB" "vssd"
+merge "vssd" "mprj2_logic_high_hvl/VGND"
+merge "mprj2_logic_high_hvl/VGND" "mprj2_logic_high_hvl/VNB"
+merge "mprj2_logic_high_hvl/VNB" "FILLER_1_56/VGND"
+merge "FILLER_1_56/VGND" "VSUBS"
+merge "VSUBS" "FILLER_1_56/VNB"
+merge "FILLER_1_56/VNB" "vssa2"
+merge "mprj2_logic_high_lv/VPWR" "mprj2_logic_high_lv/VPB" -10359.7 0 0 0 0 -68640 -1304 0 0 0 0 0 0 0 -68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -68 -579208 -12938 -103829 -5004 3950806 -37576 0 0 0 0 0 0
+merge "mprj2_logic_high_lv/VPB" "mprj2_logic_high_hvl/VPWR"
+merge "mprj2_logic_high_hvl/VPWR" "mprj2_logic_high_hvl/VPB"
+merge "mprj2_logic_high_hvl/VPB" "FILLER_1_56/VPWR"
+merge "FILLER_1_56/VPWR" "FILLER_1_56/VPB"
+merge "FILLER_1_56/VPB" "vdda2"
+merge "mprj2_logic_high_lv/A" "mprj2_logic_high_hvl/HI" -298.116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62705 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mprj2_logic_high_hvl/HI" "li_6655_2240#"
+merge "mprj_logic_high_lv/LVPWR" "mprj2_logic_high_lv/LVPWR" -31354.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 568550 -52785 -94880 -5218 -2865432 -95692 0 0 0 0 0 0
+merge "mprj2_logic_high_lv/LVPWR" "vccd"
+merge "mprj_logic_high_lv/X" "mprj_vdd_logic1" 775.856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33246 -136 2895200 0 -14924 -1030 -99234 -1938 0 0 0 0 0 0
+merge "mprj2_logic_high_lv/X" "mprj2_vdd_logic1" 696.191 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 190449 -136 1411200 0 0 0 0 0 0 0 0 0 0 0
+merge "mprj_logic_high_lv/A" "mprj_logic_high_hvl/HI" -5592.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11029 -272 404800 -25884 68536 -692 0 0 0 0 0 0 0 0
+merge "mprj_logic_high_hvl/HI" "li_14047_1870#"
