@@ -1,17 +1,20 @@
 # 🧭 VSD Physical Verification Workshop
 
 <p align="center">
-<b>Open-Source VLSI Physical Design & Verification using SKY130
-</p>
-  <p align="center">
-  <b>📅 10 August 2026 – 19 August 2026</b><br>
-  <b>🎯 Physical Design • DRC • LVS • PNR • RTL-to-GDSII</b><br>
-  <b>🛠️ Open-Source EDA Tools • SKY130 PDK</b>
+
+## **Open-Source VLSI Physical Design & Verification using SKY130**
+
+**10-Day Hands-on Workshop | SKY130 Open-Source PDK | Open-Source EDA Tools**
+
+📅 **10 August 2026 – 19 August 2026**
+
+**Physical Design • DRC • LVS • PNR • RTL-to-GDSII**
+
 </p>
 
 ---
 
-## 📑 Table of Contents
+## 📖 Table of Contents
 
 - [📖 About the Repository](#-about-the-repository)
 - [🚀 Workshop Overview](#-workshop-overview)
@@ -30,6 +33,7 @@
 - [📝 Conclusion](#-conclusion)
 - [👩‍💻 Author](#-author)
 
+---
 ---
 
 ## 📖 About the Repository
